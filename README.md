@@ -1,10 +1,11 @@
-# CS 4756/5756: Robot Learning - Assignment 2
+# Robot Learning - Assignment 1
 This repository contains the implementation of imitation learning techniques to train a Fetch robot on the Reach task using expert demonstrations. 
 The assignment was completed in Google Colab using Gymnasium Robotics' Mujoco Environments.
 
 ## Implemented Techniques
 
 #### Behavior Cloning (BC): 
+
 - Trains an agent using supervised learning on a dataset of expert demonstrations.
 
 - Optimized via cross-entropy (discrete actions) or mean-squared error (continuous control).
